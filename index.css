@@ -1,0 +1,44 @@
+.container{
+    width: 300px;
+    margin:50px auto 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    text-align: center;
+    background-color: rgba(255,255, 255, 0.8);
+
+}
+body{
+    background-image:url(eeg.jpg);
+    background-size: cover;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+label{
+    margin-bottom: 5px;
+
+}
+input[type="username"],
+input[type="email"],
+input[type="password"] {
+    width: 90%;
+    padding: 13px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+button[type="submit"] {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    padding: 10px;
+    cursor: pointer;
+}
+button[type="submit"]:hover {
+    background-color: #0056b3;
+}
